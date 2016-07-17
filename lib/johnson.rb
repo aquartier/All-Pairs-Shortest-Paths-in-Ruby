@@ -1,4 +1,3 @@
-require 'byebug'
 require_relative "./vertex.rb"
 require_relative "./edge.rb"
 class Graph
@@ -70,7 +69,7 @@ class Graph
 
         shortest_path[cur_vertex] = src_actual_cost
         frontier.delete(cur_vertex)
-        
+
         cur_vertex.to_edges.each do |edge|
           src, dest, dest_cost = edge.src, edge.dest, edge.cost
           next if shortest_path[dest]

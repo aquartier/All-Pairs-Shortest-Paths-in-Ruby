@@ -1,5 +1,5 @@
 # All Pairs Shortest Path Algorithms in Ruby
-- [ ] Floyd-Warshall Algorithm
+- [x] Floyd-Warshall Algorithm
 - [x] Johnson's Algorithm
 
 # TODO:
